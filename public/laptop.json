@@ -1,0 +1,44 @@
+[
+    {
+      "id": 101,
+      "picture": "https://img.freepik.com/free-photo/portrait-dark-skinned-cheerful-woman-with-curly-hair-touches-chin-gently-laughs-happily-enjoys-day-off-feels-happy-enthusiastic-hears-something-positive-wears-casual-blue-turtleneck_273609-43443.jpg",
+      "name": "Tuba",
+      "text": "",
+      "ratings": 4.8
+    },
+    {
+      "id": 102,
+      "picture": "https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc=",
+      "name": "istiak",
+      "text": "",
+      "ratings": 4.5
+    },
+    {
+      "id": 103,
+      "picture": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "salafy",
+      "text": "",
+      "ratings": 4.9
+    },
+    {
+      "id": 104,
+      "picture": "https://media.istockphoto.com/photos/portrait-of-a-handsome-black-man-picture-id1289461335?b=1&k=20&m=1289461335&s=170667a&w=0&h=7L30Sh0R-0JXjgqFnxupL9msH5idzcz0xZUAMB9hY_k=",
+      "name": "Shahriar",
+      "text": "",
+      "ratings": 4.6
+    },
+    {
+      "id": 105,
+      "picture": "https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?size=626&ext=jpg&ga=GA1.2.1550624546.1637280000",
+      "name": "Rita",
+      "text": "",
+      "ratings": 4.7
+    },
+    {
+      "id": 106,
+      "picture": "https://ichef.bbci.co.uk/news/976/cpsprodpb/FD27/production/_101970846_aubreyblanche.jpg",
+      "name": "Anika",
+      "text": "",
+      "ratings": 4.5
+    }
+  ]

@@ -1,8 +1,13 @@
 import React from 'react';
 import { Button} from 'react-bootstrap';
 import image from '../../../public/image/lapii.jpg';
+import useLaptop from '../../hooks/useLaptop';
 import './Home.css'
 const Home = () => {
+  const [reviewLaptop, setReviewLaptop] = useLaptop();
+console.log(reviewLaptop);
+
+
     return (
         <div className="pt-5">
             <div className="row">
@@ -16,9 +21,13 @@ const Home = () => {
                     <img className="img-lapi mt-3" src="image/lapii.jpg"></img>
                 </div>
             </div>
-            <div>
 
+         <div className="row py-5 mt-3">
+         <div className="text-center">
+              <h2>Customer Reviews</h2>
+              
             </div>
+         </div>
         </div>
     );
 };

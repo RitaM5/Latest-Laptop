@@ -5,7 +5,7 @@ import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
 import Review from './Components/Review/Review'
 import DashBoard from './Components/DashBoard/DashBoard'
-import About from './Components/About/About'
+import About from './Components/Blogs/Blogs'
 function App() {
   const [count, setCount] = useState(0)
 

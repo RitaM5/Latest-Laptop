@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 //hooks
-const useTShirts = () => {
-  const [tShirts, setTShirts] = useState([]);
+const useLaptop = () => {
+  const [reviewLaptop, setReviewLaptop] = useState([]);
   useEffect(() =>{
-      fetch('tshirts.json')
+      fetch('laptop.json')
       .then(res => res.json())
-      .then(data => setTShirts(data));
+      .then(data => setReviewLaptop(data));
   }, []);
-  return [tShirts, setTShirts];
+  return [reviewLaptop, setReviewLaptop];
 };
 
-export default useTShirts;
+export default useLaptop;
