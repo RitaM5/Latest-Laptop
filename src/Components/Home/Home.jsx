@@ -30,7 +30,7 @@ const Home = () => {
                             reviewLaptop.slice(0, 3).map(laptop => <Card2 laptop={laptop} key={laptop.id}></Card2>)
                         }
                     </CardGroup>
-                 <Link to="/review">Show more</Link>
+                 <Link to="/review" className="fs-4">Show more</Link>
                 </div>
             </div>
         </div>
