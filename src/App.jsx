@@ -1,13 +1,25 @@
 import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
-
+import { Route, Routes } from 'react-router'
+import Header from './Components/Header/Header'
+import Home from './Components/Home/Home'
+import Review from './Components/Review/Review'
+import DashBoard from './Components/DashBoard/DashBoard'
+import About from './Components/About/About'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-     <h2>helloon</h2>
+    <div className="container">
+      <h1 className="py-3 text-center">Asus Latest Laptop!!</h1>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/review' element={<Review></Review>}></Route>
+        <Route path='/dashboard' element={<DashBoard></DashBoard>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+      </Routes>
     </div>
   )
 }
