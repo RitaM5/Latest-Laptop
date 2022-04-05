@@ -3,10 +3,9 @@ import React, { useEffect, useState } from 'react';
 const useChart = () => {
   const [useReChart, setUseReChart] = useState([]);
   useEffect(() =>{
-      fetch('')
-      .then(res => res.json('data.json'))
+      fetch('data.json')
+      .then(res => res.json())
       .then(data => setUseReChart(data));
-      console.log(data);
   }, []);
   return [useReChart, setUseReChart];
 };
