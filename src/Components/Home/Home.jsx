@@ -2,14 +2,12 @@ import React from 'react';
 import { Button,CardGroup} from 'react-bootstrap';
 import image from '../../../public/image/lapii.jpg';
 import useLaptop from '../../hooks/useLaptop';
+import Card3 from '../Card-3/Card3';
 import Card2 from '../Card/Card2';
+import { Link } from 'react-router-dom';
 import './Home.css'
 const Home = () => {
     const [reviewLaptop, setReviewLaptop] = useLaptop();
-    const handleAddToReview = ()=>{
-
-    }
-
     return (
         <div className="pt-5">
             <div className="row">
@@ -32,7 +30,7 @@ const Home = () => {
                             reviewLaptop.slice(0, 3).map(laptop => <Card2 laptop={laptop} key={laptop.id}></Card2>)
                         }
                     </CardGroup>
-                    <Button onClick={handleAddToReview} variant="info fs-5 mt-4"> show more</Button>
+                 <Link to="/review">Show more</Link>
                 </div>
             </div>
         </div>

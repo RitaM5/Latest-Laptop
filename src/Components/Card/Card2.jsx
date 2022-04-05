@@ -7,7 +7,7 @@ const Card2 = (props) => {
     return (
         <Card>
           <div className="d-flex gap-2 p-2 align-items-center">
-              <img src={picture} className="card-img"></img>
+              <img src={picture} className="card_img"></img>
               <h4>{name}</h4>
           </div>
          <div className="me-5">

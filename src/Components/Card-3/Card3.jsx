@@ -1,15 +1,20 @@
 import React from 'react';
-import { CardGroup } from 'react-bootstrap';
-import Card3 from '../Card-3/Card3';
-
-const Card3 = () => {
+import { Card } from 'react-bootstrap';
+const Card3 = (props) => {
+    const { name, text, picture, ratings } = props.laptop;
+    console.log(text);
     return (
         <div>
-            <CardGroup className="gap-3 mt-5">
-                {
-                    reviewLaptop.slice(0, 3).map(laptop => <Card3 laptop={laptop} key={laptop.id}></Card3>)
-                }
-            </CardGroup>
+        <Card>
+          <div className="d-flex gap-2 p-2 align-items-center">
+              <img src={picture} className="card_img"></img>
+              <h4>{name}</h4>
+          </div>
+         <div className="me-5">
+          <p>{text}</p>
+          <p className="ms-3">Rating: {ratings}</p>
+         </div>
+        </Card>
         </div>
     );
 };

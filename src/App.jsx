@@ -6,6 +6,7 @@ import Home from './Components/Home/Home'
 import Review from './Components/Review/Review'
 import DashBoard from './Components/DashBoard/DashBoard'
 import About from './Components/Blogs/Blogs'
+import NotFound from './Components/NotFound/NotFound'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,6 +20,8 @@ function App() {
         <Route path='/review' element={<Review></Review>}></Route>
         <Route path='/dashboard' element={<DashBoard></DashBoard>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
+        <Route path='/showmore' element={<Review></Review>}></Route>
       </Routes>
     </div>
   )
